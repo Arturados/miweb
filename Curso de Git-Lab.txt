@@ -1,0 +1,39 @@
+Curso de Git-Lab 
+
+Comandos: 
+
+Pwd: Saber en donde estas parado
+
+git init : Inicializa un Repositorio 
+
+ls -a: Mostrar todas los directorios / Hasta los oculto
+
+*.formato : Agregara todos los archivos que tenga un formato ejemplo: php, jpg, css, html etc
+
+git commit -m "Hice un cambio":  Escribir el compromiso
+
+git commit: Escribir el compromiso en VsCode o Editor de texto (Configurar el global config antes) agregar el mensaje en la linea 1 guardar y cerrar el archivo. 
+
+------
+Para no seguir trackear cambios de un archivo o un directorio, se crea el archivo .gitignore  en el se debe agregar los archivos o directorios 
+Archivos: hola.txt
+directorios: node_modules/ 
+Guardamos 
+Git add .gitignore / git commit -m "Commentario" 
+----
+
+
+git diff:  ver todo el texto de los cambios que vamos agregar 
+
+git log --oneline ver historial de cambios resumido, sin el --online el historial con name/email
+
+git branch: (Ver en que rama estamos parados)
+
+git checkout -b TICKET-6305  (Crear una rama con el ticket)
+
+
+-*----------
+para pasar cambios de TICKET a rama MASTER o PRODUCTION  hay que estar en MASTER o PRODUCTION
+
+git merge TICKET-6305 <-Este comando es para traerme los cambios de una rama>
+
